@@ -1,0 +1,108 @@
+/* Add imports of custom sass/scss files here */
+
+/*
+ *= require_self
+ *= require gumby
+ */
+
+$white: #fff;
+$gold: #dcd1b8;
+$grey: #555;
+
+body {
+  padding: 0;
+}
+
+a:hover {
+	-webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.top {
+  background-color: #555;
+  background-image: url(asset-path('top-bg.jpg'));
+  background-size: cover;
+  background-position: center;
+  padding: 3em 0 3em;
+  font-size: 3.5em;
+  color: $gold;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+}
+
+.top .sub-text {
+  margin: 1em 0 1em;
+  font-size: 0.6em;
+  text-align: center;
+  color: $white;
+  padding: 0.5em 0;
+  text-shadow: none;
+}
+
+.top .contact a {
+  background: none;
+  color: $white;
+  border: 1px solid $white;
+  font-size: 0.25em;
+  padding: 7px 18px;
+  text-shadow: none;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.top .contact a:hover {
+  background: $white;
+  color: $grey;
+  border: 1px solid $white;
+  padding: 7px 18px;
+  text-shadow: none;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.about {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid $gold;
+  margin-bottom: 1em;
+}
+
+.about a {
+  color: $grey;
+  border: 1px solid $grey;
+  padding: 7px 18px;
+  text-shadow: none;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.about a:hover {
+  background: $grey;
+  border: 1px solid $grey;
+  color: $white;
+}
+
+img.about-photo {
+  border-radius: 100px;
+  width: 40%;
+  text-align: center;
+}
+
+p.title {
+  text-transform: uppercase;
+  color: $gold;
+}
+
+.portfolio {
+  background: $gold;
+  padding: 2em 0;
+}
